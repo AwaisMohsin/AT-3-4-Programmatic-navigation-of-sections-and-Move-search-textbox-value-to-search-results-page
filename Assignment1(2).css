@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+}
+#glogo{                                     /* glogo=Google lgog */
+    height: 100px;
+    width: 150px;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.logo{
+    display: inline-block;
+}
+.serchbm{                                       /* Search button and Mic */
+    position: relative;
+    width: 500px;
+    display: inline-block;
+    left: 30px;
+    bottom: 40px;
+    size: 500px;
+}
+button{
+    float:right;
+    padding: 5px;
+}
+button{
+    position: relative;
+    bottom: 31px;
+    right: 1px;
+}
+#Mic{
+    position: relative;
+    bottom: 32px;
+    right: 6px;
+}
+#Mic{
+    float:right;
+    padding: 5px;
+}                  
+#Mic{
+    height: 25px;
+    width: 20px;
+}
+input{ 
+    font-size: larger;
+}
+.serchbm input{
+    width: 499px;
+    height: 29px;
+    border:1px solid gainsboro;
+    border-radius: 15px;
+}
+input:hover{
+    box-shadow: 0 0 5px 0px black;    
+}
+#dot{                                        /*id, Icon of 9 dot */
+    height: 20px;
+    width: 20px;
+}
+ul {
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+.User{
+    position: relative;
+    float: right;
+    bottom: 150px;
+}
+.cato{                                             /* catagories */
+    width: 500px;
+}
+.nav-l{
+    display: inline-block;
+    padding-left:10px;
+}
+.nav-r{
+    align-items: center;
+}
+footer{
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    bottom:0px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+#ST{                                                /* Setting and Tool */
+    float: right;
+}
+#ul-cato{
+    position: relative;
+    left: 130px;
+    width: 600px;
+    bottom: 90px;
+}
+a:link {
+    color: green;
+  }
+  
+  /* visited link */  
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  } 
+a{
+    text-decoration: none;
+    margin-inline: 5px;
+    align-items: center;
+}
+a:hover{
+    text-decoration: underline;
+}
+.main{
+    width: 600px;
+    margin-left: 170px;
+}
+hr{
+    width: 100%;
+}

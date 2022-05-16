@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assignment1(2).css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Google Search Result Page</title>
+    <script>
+        //Runs when page is started:
+        window.onload = setTitle;
+
+
+        function setTitle() {
+            // Got this code from google,
+            var params = new Proxy(new URLSearchParams(window.location.search), {
+                get: (searchParams, prop) => searchParams.get(prop),
+            });
+            // till here
+
+            // Sett the value of text box on page 2 with Query String.
+            document.getElementById("input").value = params.search;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="logo">
+                <a onclick="myFunction()"><img id="glogo" src="GLogo.png" alt="Google logo"></a>
+                <script>
+                    function myFunction() {
+                        window.location.href = "Assignment1.html";
+                    }
+                </script>
+            </div>
+            <div class="serchbm">
+                <input id="input" type="text" name="write">
+                <div>
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+                <div>
+                    <a href="#"><img id="Mic" src="Mic.png" alt="Mic Icon"></a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul class="User">
+                <li><a href="#"><i class="fas fa-cog"></i></a></li>
+                <li><a href="#"><img id="dot" src="9-dot.png" alt="9dot"></a></li>
+                <li><a href="#"><i class="fas fa-user"></i></a></li>
+            </ul>
+            <div id="ul-cato">
+                <ul class="cato">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">More</a></li>
+                    <div id="ST">
+                        <li><a href="#">Setting</a></li>
+                        <li><a href="#">Tools</a></li>
+                    </div>
+                </ul>
+            </div>
+            <hr>
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+        <section>
+            <h2>This page shows Google Search reults</h2>
+            <p>Google is a fully-automated search engine that uses software known as web crawlers that explore the web
+                on a regular basis to find sites to add to our index.
+                In fact, the vast majority of sites listed in our results aren't manually submitted for inclusion, but
+                are found and added automatically when our web crawlers crawl the web.</p>
+            <cite>https://developers.google.com/search/docs/basics/how-search-works</cite><br><br>
+            <a
+                href="https://developers.google.com/search/docs/basics/how-search-works">https://developers.google.com/search/docs/basics/how-search-works</a>
+        </section>
+    </main>
+    <footer>
+        <nav id="footer">
+            <ul class="nav-l">
+                <a href="#" title="Google Advertising">Advertising</a>
+                <a href="#" title="Google Business">Business</a>
+                <a href="#" title="Help You to Find Out">How Search Works</a>
+            </ul>
+            <ul class="nav-r">
+                <a href="#" title="Makes you Secure">Privacy</a>
+                <a href="#" title="Read our Terms and Policy">Terms</a>
+                <a href="#" title="Change Setting">Setting</a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
